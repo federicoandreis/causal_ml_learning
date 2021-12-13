@@ -2,9 +2,9 @@ altair
 jupyterlab
 matplotlib
 numpy
-panda
+pandas
 scipy
-sklearn
+scikit-learn
 statsmodels
 dowhy
 econml
