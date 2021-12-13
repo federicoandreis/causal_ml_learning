@@ -8,3 +8,4 @@ This folder contains relevant papers in the following folders:
 * `fairness`: use of causal methods to understand / improve algorithmic fairness
 * `heterogeneous treatment effects`: use of machine learning to measure individual factors that explain heterogeneity in intervention impacts
 * `mixed_methods`: Interesting combination of methods
+* `tools`: documentation for software packages etc.
