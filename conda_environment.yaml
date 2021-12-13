@@ -1,0 +1,7 @@
+name: causal_ml_learning
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - pip
+  - python=3.8
