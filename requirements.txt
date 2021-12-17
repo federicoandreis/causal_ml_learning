@@ -1,0 +1,10 @@
+altair
+jupyterlab
+matplotlib
+numpy
+pandas
+scipy
+scikit-learn
+statsmodels
+dowhy
+econml
