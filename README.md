@@ -2,6 +2,8 @@
 
 A repository of material and experimental code developed during a week-long firebreak about causal machine learning at Nesta.
 
+![A causal model](causal_model.png)
+
 ## Setup
 
 * Clone the repository
