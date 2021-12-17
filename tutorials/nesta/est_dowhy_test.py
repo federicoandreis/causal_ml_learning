@@ -41,17 +41,19 @@
 
 # imports
 import dowhy
-import os
-import re
 import pandas as pd
 import pygraphviz
 import numpy as np
+import os
+from pathlib import Path
 
 # read in data
 keep_variables = ["n_heat_pumps","n_households","median_floor_area","median_property_age","median_epc_score",
 "median_energy_consumption", "median_co2_emissions", "median_low_energy_lighting"]
 
-dataset = pd.read_csv(re.sub("tutorials/nesta","data",os.getcwd())+"/est_processed.csv")
+PROJECT_DIR = Path(__file__).resolve().parents[2]
+
+dataset = pd.read_csv(str(PROJECT_DIR)+"/data/est_processed.csv")
 
 # pre- and post-processing
 # data already pre-processed (in R) for simplicity, just a few tweaks needed
