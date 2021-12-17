@@ -10,5 +10,9 @@ A repository of material and experimental code developed during a week-long fire
 * Run `conda activate causal_ml_learning` to activate the environment
 * Run `pip install -r requirements.txt` to install dependencies
   * This includes basic scientific stack packages and a couple of causal ML packaged developed by Microsoft
-* Run `brew install graphviz`, a dependency for the `pygraphviz` package that `dowhy` uses to generate causal graphs.
+
+## Directory structure
+* `data` contains the Energy Saving Trust (EST) data we use in the Nesta tutorials
+* `library` contains references & slides
+* `tutorials` contains the official `dowhy` tutorials and an example script using data from a Nesta project
 
