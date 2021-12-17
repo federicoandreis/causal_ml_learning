@@ -5,6 +5,7 @@ A repository of material and experimental code developed during a week-long fire
 ## Setup
 
 * Clone the repository
+* Install `graphviz`. If on macOS, run `brew install graphviz`
 * Run `conda env create -f conda_environment.yaml` to create the environment
 * Run `conda activate causal_ml_learning` to activate the environment
 * Run `pip install -r requirements.txt` to install dependencies
